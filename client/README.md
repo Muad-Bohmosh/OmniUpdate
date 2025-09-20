@@ -11,7 +11,7 @@ It's designed to be simple to integrate and use.
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/OmniUpdate.git
+git clone https://github.com/Muad-Bohmosh/OmniUpdate.git
 cd OmniUpdate/"Package Updates client"
 
 # Install dependencies
