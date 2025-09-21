@@ -42,7 +42,7 @@ A lightweight, self-hosted solution for versioned software distribution and auto
 ### Client Application Structure
 ```
 /Project-directory/
-├── Package Updates client/   # Client Component
+├── Package Updates/          # Client Component
 │   ├── Updates-Client.js     # Main client file
 │   └── TARer.js              # Archive utility
 └── app/                      # Current application (will be replaced during updates)
@@ -195,9 +195,13 @@ We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📝 License
+---
 
-This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
+## 📣 Use It as you please under [LICENSE](LICENSE) terms
+
+> Like everything else, I Built it Because I Needed it.
+
+---
 
 ## 🆘 Support
 
