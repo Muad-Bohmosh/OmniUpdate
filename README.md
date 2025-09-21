@@ -1,32 +1,43 @@
 # OmniUpdate
 
+**Lightweight Self-Hosted Software Distribution System**
+
 A lightweight, self-hosted solution for versioned software distribution and automated updates. OmniUpdate provides both server and client components for seamless application version management.
 
 ![Node.js](https://img.shields.io/badge/Node.js-18%2B-green)
 ![Express](https://img.shields.io/badge/Express-4.x-lightgrey)
 ![License](https://img.shields.io/badge/License-Apache%202.0-blue)
 
-## 🌟 Features
+## 🚀 Features
 
-- **Version Management**: Automatically scans and sorts application versions
-- **Secure Distribution**: Stream tar.gz archives with proper security validation
-- **Auto-Update Client**: Intelligent client that downloads and applies updates
-- **RESTful API**: Clean endpoints for version discovery and downloads
-- **Cross-Platform**: Works on any system with Node.js
-- **Lightweight**: Minimal dependencies, easy to deploy
+- **Server Component**: REST API for serving versioned tar.gz archives
+- **Client Component**: Automatic update checking and installation  
+- **Version Management**: Automatic sorting and validation of semantic versions
+- **Secure**: Protected against directory traversal and path manipulation
+- **Cross-Platform**: Works anywhere Node.js runs
 
-## 📦 Use Cases
+## 📦 Perfect For
 
 - Desktop application auto-updates
-- Mobile app patch distribution
-- IoT device firmware updates
+- Mobile app patch distribution  
+- IoT device firmware management
 - Internal tool deployment
-- Game client version management
+- Game client version control
 - Enterprise software distribution
+
+## 💡 Why OmniUpdate?
+
+- No third-party dependencies or services required
+- Full control over your update infrastructure
+- Simple integration with existing applications
+- Open source and freely customizable
+- Enterprise-ready security features
+
+*Simplify your software distribution with a self-hosted, reliable update system.*
 
 ## 🏗️ Architecture
 
-### Version Host Server Structure
+### Host Server Structure
 ```
 /Project-directory/
 ├── Package Updates/           # Server Component
@@ -42,7 +53,7 @@ A lightweight, self-hosted solution for versioned software distribution and auto
 ### Client Application Structure
 ```
 /Project-directory/
-├── Package Updates/          # Client Component
+├── Package Updates/   # Client Component
 │   ├── Updates-Client.js     # Main client file
 │   └── TARer.js              # Archive utility
 └── app/                      # Current application (will be replaced during updates)
