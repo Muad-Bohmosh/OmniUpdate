@@ -65,10 +65,10 @@ if (hasUpdate) {
 
 ```
 /Project-directory/
-├── Package Updates client/   # Client Component
+├── Package Updates/          # Client Component
 │   ├── Updates-Client.js     # Main client class
 │   └── TARer.js              # Archive utility (for extraction)
-│   └── Update.js              # Terminal commands
+│   └── Update.js             # Terminal commands
 └── app/                      # Current application (will be replaced)
 └── version.txt               # Tracks currently installed version
 ```
